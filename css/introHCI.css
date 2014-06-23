@@ -1,0 +1,60 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+     color: white;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../piano.jpg");
+     background-size: 97% auto;
+     background-repeat:no-repeat;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;	
+
+}
+
+.jumbotron p {
+/*     color: #6e6e6e; */
+     color: white;
+}
+
+.project a {
+     text-align: center;
+}
+
+.project .details {
+     overflow: hidden;
+}
+
+.project .details .detailsImage {
+     width: 200px;
+     margin: 10px 10px 10px 0px;
+     float: left;
+}
+
+.row .thumbnail h4 {
+     text-align: left;
+}
+
+div .music {
+     width: 700px;
+}
+
+#joplin-performance {
+     width: 75%;
+}
