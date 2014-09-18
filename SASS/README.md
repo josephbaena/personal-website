@@ -1,1 +1,0 @@
-### Stanford Applied Statistics Society Website
